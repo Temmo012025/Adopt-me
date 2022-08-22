@@ -8,9 +8,9 @@ const App = () => {
   return (
     <StrictMode>
       <BrowserRouter>
-      <header>
-        <Link to="/">Adopt Me!</Link>
-      </header>
+        <header>
+          <Link to="/">Adopt Me!</Link>
+        </header>
         <Routes>
           <Route path="/" element={<SearchParams />} />
           <Route path="/details/:id" element={<Details />} />
